@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3c55f047-cc60-499f-8def-35c17bf0acf6++9190",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3c55f047-cc60-499f-8def-35c17bf0acf6++9190" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3c55f047-cc60-499f-8def-35c17bf0acf6++9190" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AEF9D047-E676-4688-AFD5-D75CFB60B6CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3c55f047-cc60-499f-8def-35c17bf0acf6++9190" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AccountsDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AccountsDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn+site5:\/\/dejal.com\/apps",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3c55f047-cc60-499f-8def-35c17bf0acf6++9190"
+    }
+  ]
+}

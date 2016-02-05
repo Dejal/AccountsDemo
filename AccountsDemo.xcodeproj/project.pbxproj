@@ -12,6 +12,8 @@
 		173691B21C645BBD007B01E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 173691B11C645BBD007B01E8 /* ViewController.m */; };
 		173691B41C645BBD007B01E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173691B31C645BBD007B01E8 /* Assets.xcassets */; };
 		173691B71C645BBD007B01E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173691B51C645BBD007B01E8 /* Main.storyboard */; };
+		173691BF1C645CCD007B01E8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173691BE1C645CCD007B01E8 /* Accounts.framework */; };
+		173691C11C645CDA007B01E8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173691C01C645CDA007B01E8 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		173691B31C645BBD007B01E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173691B61C645BBD007B01E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		173691B81C645BBD007B01E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173691BE1C645CCD007B01E8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		173691C01C645CDA007B01E8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173691C11C645CDA007B01E8 /* Social.framework in Frameworks */,
+				173691BF1C645CCD007B01E8 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 		1736919E1C645BBD007B01E8 = {
 			isa = PBXGroup;
 			children = (
+				173691C01C645CDA007B01E8 /* Social.framework */,
+				173691BE1C645CCD007B01E8 /* Accounts.framework */,
 				173691A91C645BBD007B01E8 /* AccountsDemo */,
 				173691A81C645BBD007B01E8 /* Products */,
 			);

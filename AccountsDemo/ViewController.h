@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property (weak) IBOutlet NSButton *loadButton;
+@property (strong) IBOutlet NSTextView *textView;
+
+- (IBAction)loadAccounts:(id)sender;
 
 @end
 
