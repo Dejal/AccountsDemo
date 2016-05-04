@@ -12,8 +12,11 @@
 
 @property (weak) IBOutlet NSButton *loadButton;
 @property (strong) IBOutlet NSTextView *textView;
+@property (weak) IBOutlet NSButton *useHackCheck;
+@property (weak) IBOutlet NSButton *removeButton;
 
 - (IBAction)loadAccounts:(id)sender;
+- (IBAction)removeFromAccounts:(id)sender;
 
 @end
 

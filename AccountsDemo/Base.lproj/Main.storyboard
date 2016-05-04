@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E33e" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F28b" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -651,10 +651,10 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="AccountsDemo" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="AccountsDemo" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="196" y="240" width="577" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                     </window>
                     <connections>
@@ -663,14 +663,14 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="123.5" y="250"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="574" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="V7Y-B0-m6f">
@@ -684,20 +684,20 @@
                                 </connections>
                             </button>
                             <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnI-5Z-GkX">
-                                <rect key="frame" x="20" y="20" width="440" height="189"/>
+                                <rect key="frame" x="20" y="20" width="534" height="189"/>
                                 <clipView key="contentView" id="RNd-T6-DfC">
-                                    <rect key="frame" x="1" y="1" width="438" height="187"/>
+                                    <rect key="frame" x="1" y="1" width="532" height="187"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <textView importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="VKZ-hO-uLD">
-                                            <rect key="frame" x="0.0" y="0.0" width="438" height="187"/>
+                                        <textView editable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="VKZ-hO-uLD">
+                                            <rect key="frame" x="0.0" y="0.0" width="532" height="187"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <size key="minSize" width="438" height="187"/>
-                                            <size key="maxSize" width="463" height="10000000"/>
+                                            <size key="minSize" width="532" height="187"/>
+                                            <size key="maxSize" width="534" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="438" height="187"/>
-                                            <size key="maxSize" width="463" height="10000000"/>
+                                            <size key="minSize" width="532" height="187"/>
+                                            <size key="maxSize" width="534" height="10000000"/>
                                         </textView>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -707,28 +707,52 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="UVV-76-fcx">
-                                    <rect key="frame" x="423" y="1" width="16" height="187"/>
+                                    <rect key="frame" x="517" y="1" width="16" height="187"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vbd-08-kmy">
+                                <rect key="frame" x="351" y="222" width="209" height="32"/>
+                                <buttonCell key="cell" type="push" title="Remove App from Accounts" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Cjt-AR-H7f">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="removeFromAccounts:" target="XfG-lQ-9wD" id="kpb-UK-5TP"/>
+                                </connections>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="8KC-bW-925">
+                                <rect key="frame" x="190" y="231" width="141" height="18"/>
+                                <buttonCell key="cell" type="check" title="Use Accounts Hack" bezelStyle="regularSquare" imagePosition="left" inset="2" id="WDc-um-8jV">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="vbd-08-kmy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8KC-bW-925" secondAttribute="trailing" constant="8" symbolic="YES" id="66c-Ei-33N"/>
+                            <constraint firstItem="8KC-bW-925" firstAttribute="baseline" secondItem="V7Y-B0-m6f" secondAttribute="baseline" id="6UD-wE-LjX"/>
                             <constraint firstAttribute="trailing" secondItem="hnI-5Z-GkX" secondAttribute="trailing" constant="20" id="Ez8-59-LPJ"/>
                             <constraint firstItem="hnI-5Z-GkX" firstAttribute="top" secondItem="V7Y-B0-m6f" secondAttribute="bottom" constant="20" id="Fkv-RV-JMI"/>
                             <constraint firstItem="hnI-5Z-GkX" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="O5U-QV-OEk"/>
                             <constraint firstItem="V7Y-B0-m6f" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="QUd-Nc-fW3"/>
+                            <constraint firstAttribute="trailing" secondItem="vbd-08-kmy" secondAttribute="trailing" constant="20" id="Vgz-BI-NNF"/>
+                            <constraint firstItem="vbd-08-kmy" firstAttribute="baseline" secondItem="V7Y-B0-m6f" secondAttribute="baseline" id="g26-gr-TXE"/>
+                            <constraint firstItem="8KC-bW-925" firstAttribute="leading" secondItem="V7Y-B0-m6f" secondAttribute="trailing" constant="8" id="meL-80-jlP"/>
                             <constraint firstAttribute="bottom" secondItem="hnI-5Z-GkX" secondAttribute="bottom" constant="20" id="nhq-Uc-6BY"/>
                             <constraint firstItem="V7Y-B0-m6f" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="upO-DQ-bO6"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="loadButton" destination="V7Y-B0-m6f" id="R6M-pl-ioX"/>
+                        <outlet property="removeButton" destination="vbd-08-kmy" id="b6J-T1-Qj9"/>
                         <outlet property="textView" destination="VKZ-hO-uLD" id="jQC-pa-6LH"/>
+                        <outlet property="useHackCheck" destination="8KC-bW-925" id="Ogg-QL-ZQn"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="125" y="709"/>
         </scene>
     </scenes>
 </document>
